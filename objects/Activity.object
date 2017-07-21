@@ -34,6 +34,14 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>ForUserStoryTest</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Booker_T__c</fullName>
         <externalId>false</externalId>
         <label>Booker T</label>
