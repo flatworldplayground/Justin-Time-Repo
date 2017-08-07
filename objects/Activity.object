@@ -108,6 +108,34 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Tools__c</fullName>
+        <externalId>false</externalId>
+        <label>Tools</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wrench</fullName>
+                    <default>false</default>
+                    <label>Wrench</label>
+                </value>
+                <value>
+                    <fullName>Pliers</fullName>
+                    <default>false</default>
+                    <label>Pliers</label>
+                </value>
+                <value>
+                    <fullName>Screw</fullName>
+                    <default>false</default>
+                    <label>Screw</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
